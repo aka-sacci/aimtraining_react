@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Square from './components/square'
+import Game from './components/game'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="selectDificult">
-      <h3>Select the difficult</h3>
-    </div>
-    <Square></Square>
+   <Game></Game>
   </React.StrictMode>,
   document.getElementById('root')
 );
